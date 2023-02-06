@@ -59,9 +59,9 @@ print("Hello World!")
 # * Making it better
 # * Using function exit to exit when required condition not met which is provided by sys module
 # if len(sys.argv) < 3:
-    # sys.exit("Too few arguments")
+# sys.exit("Too few arguments")
 # elif len(sys.argv) > 3:
-    # sys.exit("Too many arguments")
+# sys.exit("Too many arguments")
 # * Print name
 # print("Hello, my name is",sys.argv[1], end=" ")
 # print("and my age is",sys.argv[2])
@@ -72,9 +72,9 @@ print("Hello World!")
 #     print("Name:",arg)
 # * The name of file is also printed. So handling this...
 # if len(sys.argv) < 2:
-    # sys.exit("Too few arguments")
+# sys.exit("Too few arguments")
 # for arg in sys.argv[1:5]:    # * Slicing a list
-    # print("Name:",arg)
+# print("Name:",arg)
 # TODO Pakages in PYTHON
 # * pypi.org - website for python packages
 # * pip - package manager
@@ -96,7 +96,7 @@ print("Hello World!")
 # import sys
 # * Exit the program if user does not provide 2 arguments in cmd or terminal
 # if len(sys.argv) != 2:
-    # sys.exit()
+# sys.exit()
 # * stored the link from which we gonna request for a JSON file
 # link = "https://itunes.apple.com/search?entity=song&limit=1&term=weezer"
 # * Request the API now using get function provided by request package
