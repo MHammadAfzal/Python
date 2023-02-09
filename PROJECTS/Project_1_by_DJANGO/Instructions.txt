@@ -1,0 +1,27 @@
+For projects, type in cmd: 'python -m -venv env' ---> it creates a virtual environment 'env' in which we will store python packages
+
+To activate the environment, type in cmd: '.\env\scripts\Activate.Ps1'
+If error occurs: 
+	Get-ExecutionPolicy--> if restricted
+			Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force  
+
+Then Install Django by typing 'pip install Django' in CMD
+
+To create a Django Project, type in CMD: 'django-admin startproject puddle'
+
+To see files in puddle, type 'cd puddle' and then 'ls' in CMD--> manage.py and puddle will appear
+
+To run project, type 'python manage.py runserver'
+
+CREATE AN APP CORE --> type in terminal: 'python manage.py startapp core'
+
+In settings.py, go to list INSTALLED APPS and add core in it
+
+We can create views in views.py present in core folder
+
+Go to view.py and create front page
+
+To create model , type in cmd: ''python manage.py make makemigrations"
+To migrate model , type in cmd: ''python manage.py migrate"
+
+To create user , type in cmd: ''python manage.py createsuperuser"
