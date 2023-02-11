@@ -92,15 +92,47 @@ print("Hello, World")
 #     print("usage: meows.py")
 # * simplifying above program
 # * :import argparse library
-import argparse
+# import argparse
 
-parser = argparse.ArgumentParser(description = "Meow like a cat")
-parser.add_argument("-n", default = 1,help = "Nummber of times to meow", type = int)
+# parser = argparse.ArgumentParser(description = "Meow like a cat")
+# parser.add_argument("-n", default = 1,help = "Nummber of times to meow", type = int)
 
-args = parser.parse_args()
-# print(args)
+# args = parser.parse_args()
+# # print(args)
 
-for _ in range(args.n):
-        print("meow")
+# for _ in range(args.n):
+#         print("meow")
 
 # * type in terminal: python [source file] -h to see what it does
+
+# TODO Unpacking in PYTHON
+
+# * Go to unpack.py to study about unpacking in PYTHON
+
+# TODO 'map' in PYTHON
+
+# * Go to yell.py to study about map in PYTHON
+
+# TODO List Comprehension in PYTHON
+
+# * Go to yell.py to study about List Comprehension in PYTHON
+
+# TODO 'filter' in PYTHON
+
+# * Go to filter.py to study about filter in PYTHON
+
+# TODO Dict Comprehension in PYTHON
+
+# * Go to filter.py to study about filter in PYTHON
+
+# TODO enumerate in PYTHON
+
+# * Go to filter.py to study about enumerate in PYTHON
+
+# TODO Generator in PYTHON
+
+# * Go to generator.py to study about generator in PYTHON
+
+# ! CONCLUSION
+
+# * Go to conclusion.py to study about generator in PYTHON
