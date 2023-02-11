@@ -1,14 +1,16 @@
-from tkinter import *
+# ! Intro to tkinter
 
-root = Tk()
+# from tkinter import *
+
+# root = Tk()
 
 """
 : tkinter is a library which is used for GUI in PYTHON
 : Tk() for a window
 """
 
-myLabel = Label(root, text="Hello, world")
-myLabel.pack()
+# myLabel = Label(root, text="Hello, world")
+# myLabel.pack()
 """
 : Created a label widget
 
@@ -19,8 +21,10 @@ myLabel.pack()
 : mylabel.pack(): shoving onto the screen
 """
 
-root.mainloop()
+# root.mainloop()
 
 """
 : root.mainloop(): making our root i.e. screen our main loop in which we will detect events
 """
+
+# TODO study positioning with tkinter's grid system
