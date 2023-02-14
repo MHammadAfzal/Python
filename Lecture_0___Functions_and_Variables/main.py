@@ -104,11 +104,11 @@ print("Solve this... x + y")
 # main()
 
 # * Return Values
-def main():
-    x = int(input("What's X? "))
-    print("X squared is : ", square(x))
+# def main():
+#     x = int(input("What's X? "))
+#     print("X squared is : ", square(x))
 
-def square(n = "Not Exist"):
-    return int (n * n)
+# def square(n = "Not Exist"):
+#     return int (n * n)
 
-main()
+# main()
