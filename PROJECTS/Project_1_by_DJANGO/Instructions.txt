@@ -1,4 +1,4 @@
-For projects, type in cmd: 'python -m -venv env' ---> it creates a virtual environment 'env' in which we will store python packages
+For projects, type in cmd: 'python -m venv env' ---> it creates a virtual environment 'env' in which we will store python packages
 
 To activate the environment, type in cmd: '.\env\scripts\Activate.Ps1'
 If error occurs: 
