@@ -37,3 +37,9 @@ print("Hello, World")
 # * Go to xml1.py to Study more about XML
 
 # TODO JSON (JavaScript Object Notation) in Web Services
+
+# * Go to pract.py to Study more about JSON
+
+# TODO APIs in Web Services
+
+# * Go to pract2.py to Study more about APIs
